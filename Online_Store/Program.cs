@@ -14,6 +14,8 @@ builder.Services.AddScoped<IUserInterface, UserService>();
 
 var app = builder.Build();
 
+// odamzotlar salomat
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
